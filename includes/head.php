@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kiosk</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800%7CWork+Sans:200,300%7CJosefin+Sans:100"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800%7CWork+Sans:200,300%7CJosefin+Sans:100" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/uikit.min.js" defer></script>
     <script src="js/uikit-icons.min.js" defer></script>
@@ -21,9 +20,11 @@
             <div class="uk-container">
                 <div data-uk-navbar>
                     <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo uk-text-small" href="index">Old Mutual</a>
+                        <a class="uk-navbar-item uk-logo uk-text-small" href="index">
+                            <img src="assets/icon.png" style="width:150px; height:150px;" />
+                        </a>
                     </div>
-                    <div class="uk-navbar-center uk-visible@m">
+                    <div class=" uk-navbar-center uk-visible@m">
 
                         <ul class="uk-navbar-nav">
                             <!-- <li class="uk-active"><a href="index.html">Support</a></li>
@@ -37,7 +38,7 @@
                     <div class="uk-navbar-right">
                         <!-- <a class="uk-navbar-toggle " href="#search" data-uk-search-icon data-uk-toggle></a>
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a> -->
-                        <a href="#">Contact</a>
+                        <a href="#">Need Help?</a>
                     </div>
                 </div>
             </div>
