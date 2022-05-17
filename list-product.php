@@ -33,8 +33,8 @@ $data = json_decode($response);
 ?>
 
 <div>
-    <section class="tm-margin-large-top" style="padding-bottom: 1em">
-        <div class="uk-container">
+    <section class="tm-margin-large-top" style="padding-bottom: 2em;">
+        <div class="uk-container uk-text-center" style="padding-bottom: 4em; margin-bottom: 9rem">
             <h1 class="uk-margin-medium-bottom uk-heading-hero">Select Products</h1>
             <hr class="uk-margin-remove">
             <div class="uk-grid-medium uk-child-width-1-3@m uk-grid-small uk-grid-match tm-margin-large-top uk-text-center"

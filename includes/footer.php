@@ -1,6 +1,6 @@
-<footer class="uk-section tm-primary-color-dark uk-light uk-text-center" xstyle="position: fixed;
+<footer class="uk-section tm-primary-color-dark uk-light uk-text-center" style="position: fixed;
     bottom: 0;
-    width: 100%; z-index: 1">
+    width: 100%; z-index: 1; margin-top: 2rem">
     <div class="uk-container">
 
 
