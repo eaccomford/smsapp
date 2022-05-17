@@ -27,35 +27,35 @@ $data = json_decode($response);
 
 // print_r($data->products);
 ?>
+<div style="height: 90vh; margin-bottom: 5rem">
+    <section class="tm-margin-large-top">
+        <div class="uk-container">
 
-<section class="tm-margin-large-top">
-    <div class="uk-container">
+            <h1 class="uk-margin-medium-bottom uk-heading-hero">Select Products</h1>
 
-        <h1 class="uk-margin-medium-bottom uk-heading-hero">Select Products</h1>
+            <hr class="uk-margin-remove">
+            <div class="uk-grid-medium uk-child-width-1-3@m uk-grid-small uk-grid-match tm-margin-large-top uk-text-center"
+                data-uk-grid data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 80">
+                <?php foreach ($data->products as $item) { ?>
+                <div>
+                    <a href="buy-product?id=<?= $item->id ?>&name=<?= $item->product_name ?>"
+                        class="uk-card uk-card-box uk-card-body uk-box-shadow-medium uk-border-rounded">
+                        <span class="uk-icon-forder uk-border-rounded"><span
+                                data-uk-icon="icon: pencil; ratio: 2"></span></span>
+                        <p><?= $item->product_name ?></p>
+                    </a>
+                </div>
+                <?php } ?>
 
-        <hr class="uk-margin-remove">
-        <div class="uk-grid-medium uk-child-width-1-3@m uk-grid-small uk-grid-match tm-margin-large-top uk-text-center"
-            data-uk-grid data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 80">
-            <?php foreach ($data->products as $item) { ?>
-            <div>
-                <a href="buy-product?id=<?= $item->id ?>&name=<?= $item->product_name ?>"
-                    class="uk-card uk-card-box uk-card-body uk-box-shadow-medium uk-border-rounded">
-                    <span class="uk-icon-forder uk-border-rounded"><span
-                            data-uk-icon="icon: pencil; ratio: 2"></span></span>
-                    <p><?= $item->product_name ?></p>
-                </a>
             </div>
-            <?php } ?>
+
 
         </div>
+    </section>
 
-
-    </div>
-</section>
-
-<div class="uk-margin-large-top uk-section-primary">
-    <div class="uk-container">
-        <!-- <hr class="uk-margin-remove">
+    <div class="uk-margin-large-top uk-section-primary">
+        <div class="uk-container">
+            <!-- <hr class="uk-margin-remove">
         <div class="uk-grid-large uk-flex-middle uk-margin-xlarge-top uk-margin-xlarge-bottom" data-uk-grid data-uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
             <div class="uk-width-auto@m">
                 <p class="uk-text-large">Didn't find an answer to your question?</p>
@@ -64,9 +64,9 @@ $data = json_decode($response);
                 <a class="tm-button tm-button-xlarge" href="contact.html">Contact Us</a>
             </div>
         </div> -->
+        </div>
     </div>
 </div>
-
 
 <footer class="uk-section tm-primary-color-dark uk-light uk-text-center">
     <div class="uk-container">
@@ -77,6 +77,7 @@ $data = json_decode($response);
 
     </div>
 </footer>
+
 
 
 <div id="search" class="uk-flex-top uk-background-primary uk-modal-search" data-uk-modal>
