@@ -3,7 +3,7 @@
         <div class="uk-container uk-text-center">
 
             <p class="uk-margin-remove-bottom tm-overtitle uk-margin-top uk-text-uppercase letter-spacing-l"
-                data-uk-scrollspy="cls: uk-animation-slide-bottom-medium">Welcome to the Old Mutual Kiosk</p>
+                data-uk-scrollspy="cls: uk-animation-slide-bottom-medium">Welcome to STAK Kiosk</p>
             <h1 class="uk-margin-small-top uk-heading-hero"
                 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 40">How can we help?</h1>
 
@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="make-claim"
+                    <a href="buy-product?id=3&name=Claim-Request"
                         class="uk-card uk-card-box uk-card-body uk-box-shadow-medium uk-border-rounded">
                         <span class="uk-icon-forder uk-border-rounded"><span
                                 data-uk-icon="icon: plus-circle; ratio: 2"></span></span>

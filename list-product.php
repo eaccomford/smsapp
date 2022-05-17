@@ -2,9 +2,9 @@
 
 <?php
 $curl = curl_init();
-
+// https://insurance.stakcloud.com/api/dms/check-status?policy_no=5001OMEP000002
 curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://dms.oldmutual.com.gh/api/dms/get-products?user_id=1',
+    CURLOPT_URL => 'https://insurance.stakcloud.com/api/dms/get-products-selfservice?user_id=1',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

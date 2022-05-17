@@ -11,7 +11,13 @@ include('includes/head.php')
         <div class="uk-container">
 
             <h2 class="uk-margin-medium-bottom xuk-heading-hero" style="margin-top: -1em">Fill the form for:
-                <?= $_GET['name'] ?></h2>
+                <?php
+                if ($_GET['id'] == 3) {
+                    echo ucfirst(str_replace('-', ' ', $_GET['name']));
+                } else {
+                    echo  $_GET['name'];
+                }
+                ?></h2>
 
             <hr class="uk-margin-remove">
             <div id="responseMsg" class="uk-margin-medium-bottom xuk-heading-hero" style="margin-top: .4em"></div>
@@ -74,7 +80,8 @@ include('includes/head.php')
                     </div>
                     <div id="loading"
                         style="display: none; background: white; padding: 1em; color: green; font-size: 21px; font-weight: bold; text-align:center">
-                        Processing Request...</div>
+                        Processing Request...
+                    </div>
                 </form>
 
 
@@ -183,11 +190,11 @@ $(document).ready(function() {
                 if (response.status == 'true' || response.status == true) {
                     if (type == "SMS") {
                         $("#responseMsg").html(
-                            "<div style=' background: white; padding: 1em; color: green; font-size: 21px; font-weight: bold; text-align:center'><span class='uk-icon-check uk-border-rounded'><span data-uk-icon='icon: check; ratio: 2'></span></span> Success, SMS has been sent to your Phone, click on Link for Payment </div>"
+                            "<div style=' background: white; padding: 1em; color: green; font-size: 21px; font-weight: bold; text-align:center'><span class='uk-icon-check uk-border-rounded'><span data-uk-icon='icon: check; ratio: 2'></span></span> Success, Expect an SMS on your Phone to proceed with your Request </div>"
                         );
                     } else {
                         $("#responseMsg").html(
-                            "<div style='background: white; padding: 1em; color: green; font-size: 21px; font-weight: bold; text-align:center'><span class='uk-icon-check uk-border-rounded'><span data-uk-icon='icon: check; ratio: 2'></span></span> Success, Email has been sent to you, click on Link for Payment</div>"
+                            "<div style='background: white; padding: 1em; color: green; font-size: 21px; font-weight: bold; text-align:center'><span class='uk-icon-check uk-border-rounded'><span data-uk-icon='icon: check; ratio: 2'></span></span> Success, Email has been sent to you to proceed with your Request</div>"
                         );
                     }
                     $('#loading').hide('slow');
