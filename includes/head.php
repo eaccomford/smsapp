@@ -5,13 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kiosk</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800%7CWork+Sans:200,300%7CJosefin+Sans:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800%7CWork+Sans:200,300%7CJosefin+Sans:100"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/uikit.min.js" defer></script>
     <script src="js/uikit-icons.min.js" defer></script>
 </head>
+<style>
+.tm-margin-large-top {
+    margin-top: 1em;
+}
+</style>
 
-<body class="uk-background-primary uk-light">
+<body class="uk-background-primary uk-light" style="background-color: #2196F3; height:100vh">
 
 
     <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
