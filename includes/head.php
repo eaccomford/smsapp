@@ -38,7 +38,7 @@
                     <div class="uk-navbar-right">
                         <!-- <a class="uk-navbar-toggle " href="#search" data-uk-search-icon data-uk-toggle></a>
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a> -->
-                        <a href="#">Need Help?</a>
+                        <a href="help">Need Help?</a>
                     </div>
                 </div>
             </div>
