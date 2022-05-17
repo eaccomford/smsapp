@@ -14,13 +14,15 @@
 
                 <h3>Enter Policy Status</h3>
             </div>
-            <div class="uk-margin-large-bottom">
+            <div class="uk-margin-large-bottom" style="text-align:center">
                 <!-- <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label> -->
                 <div class="uk-form-controls" style="display: flex;">
                     <input class="uk-input uk-form-large tm-form-xlarge uk-border-rounded" id="policyno" type="text"
-                        placeholder="Enter Policy or Request number" style="width:80%">
-                    <a id="checkpolicy" class="tm-button tm-button-xlarge" href="#" style="padding-top:.5rem">Check</a>
+                        placeholder="Enter Policy or Request number" style="width:100%">
+
                 </div>
+                <br>
+                <a id="checkpolicy" class="tm-button tm-button-xlarge" href="#" style="padding-top:.5rem">Check</a>
                 <div class="policyno"></div>
             </div>
             <div id="loading"
@@ -36,34 +38,34 @@
                 id="statusbox">
                 <div
                     style="display: flex; justify-content: space-between; width: 80%;  background: #ebebeb; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Customer Name</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Customer Name: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="customername">Customer Name</b></div>
                 </div>
                 <div style="display: flex; justify-content: space-between; width: 80%;  padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Customer Number</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Customer Number: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="contact_no">Customer Name</b></div>
                 </div>
                 <div
                     style="display: flex; justify-content: space-between; width: 80%; background: #ebebeb; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Policy umber</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Policy umber: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="policynumber">Policy umber</b></div>
                 </div>
                 <div style="display: flex; justify-content: space-between; width: 80%; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Product</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Product: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="product">Product</b></div>
                 </div>
                 <div
                     style="display: flex; justify-content: space-between; width: 80%;  background: #ebebeb; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Main Status</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Main Status: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="mainstatus">Main Status</b></div>
                 </div>
                 <div style="display: flex; justify-content: space-between; width: 80%; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Workflow Status</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Workflow Status: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="wstatus">Workflow Status</b></div>
                 </div>
                 <div
                     style="display: flex; justify-content: space-between; width: 80%;   background: #ebebeb; padding: 0.5em;">
-                    <div><b style="font-size: 25px; font-weight: bolder">Email</b></div>
+                    <div><b style="font-size: 25px; font-weight: bolder">Email: </b></div>
                     <div><b style="font-size: 25px; font-weight: bolder" id="email">Email</b></div>
                 </div>
             </div>
