@@ -13,7 +13,7 @@
         </div>
 
         <div
-            style="padding: 1rem; background: #fffx; box-shadow: 2px 10px 20px #2183dd; margin-top: 1rem; text-align:center; color: white">
+            style="padding: 1rem;  box-shadow: 2px 10px 20px #2183dd; margin-top: 1rem; text-align:center; color: white">
             <h5 style="color: #fff; font-size:30px">Contact us on</h5>
             <div style="display: flex; flex-direction: column;justify-content: center; align-items: center"
                 id="statusbox">
@@ -63,32 +63,12 @@
     </div>
 </div>
 
-
 <footer class="uk-section tm-primary-color-dark uk-light uk-text-center">
     <div class="uk-container">
 
-        <div>
 
-        </div>
-        <div class="uk-margin-medium">
-            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
-                <div class="uk-first-column">
-                    <a href="https://github.com/" data-uk-icon="icon: github" class="uk-icon-link uk-icon"></a>
-                </div>
-                <div>
-                    <a href="https://twitter.com/" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon"></a>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram"
-                        class="uk-icon-link uk-icon"></a>
-                </div>
-                <div>
-                    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon"></a>
-                </div>
-            </div>
-        </div>
-        <div class="uk-margin-medium tm-text-xsmall uk-text-meta copyright">Made by <a
-                href="https://unbound.studio/">Unbound Studio</a> in Basel, Switzerland.</div>
+        <div class="uk-margin-medium tm-text-xsmall uk-text-meta copyright">Powered by <a
+                href="https://shrinqghana.com/">Shrinq</a></div>
 
     </div>
 </footer>
@@ -112,22 +92,7 @@
 
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
 
-        <ul class="uk-nav uk-nav-default">
-            <li class="uk-nav-header uk-logo">Minimal</li>
-            <li class="uk-parent">
-                <a href="index.html">Support</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="index.html">Subnav</a></li>
-                    <li><a href="index.html">Subnav</a></li>
-                    <li><a href="index.html">Subnav</a></li>
-                    <li><a href="index.html">Subnav</a></li>
-                </ul>
-            </li>
-            <li><a href="faq.html">Faq</a></li>
-            <li><a href="changelog.html">Changelog</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
 
     </div>
 </div>
