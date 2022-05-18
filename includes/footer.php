@@ -5,7 +5,7 @@
 
 
         <div class="uk-margin-medium tm-text-xsmall uk-text-meta copyright">Powered by <a
-                href="https://shrinqghana.com/">Shrinq</a></div>
+                href="https://amatsolgroup.com/">AMATSOL</a></div>
 
     </div>
 </footer>
